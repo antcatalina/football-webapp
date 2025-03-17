@@ -1,0 +1,45 @@
+// Premier League Light Theme Colors
+$primary-color: #3e036f; // Premier League Purple
+$primary-subtle: #eae2f5; // Muted lavender for backgrounds
+$primary-emphasis: #00a3e0; // Premier League Cyan for highlights
+$text-color: #222222; // Dark gray for readability
+$border-color: lighten($primary-color, 20%); // Softer purple border
+$secondary-color: #006747; // Serie A Green (secondary)
+$secondary-subtle: #d9f0e4; // Light green for backgrounds
+$secondary-emphasis: #e30613; // Serie A Red for highlights
+$text-color-it: #333333; // Dark gray for readability
+$border-color-it: lighten($primary-color, 20%); // Softer green border
+
+// Custom Styling
+.border-premier-subtle {
+  border: 1px solid $border-color;
+}
+
+.bg-premier-subtle {
+  background-color: $primary-subtle;
+}
+
+.text-premier-emphasis {
+  color: $primary-emphasis;
+}
+
+.border-table {
+  border-top: 1px solid darken($border-color, 10%);
+}
+
+// Custom Styling
+.border-seriea-subtle {
+  border: 1px solid $border-color-it;
+}
+
+.bg-seriea-subtle {
+  background-color: $secondary-subtle;
+}
+
+.text-seriea-emphasis {
+  color: $secondary-emphasis;
+}
+
+.border-table-it {
+  border-top: 1px solid darken($border-color-it, 10%);
+}
